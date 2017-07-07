@@ -1,0 +1,11 @@
+alter table developers add salary int;
+update developers set salary = 1000 where id =1;
+update developers set salary = 2000 where id =2;
+update developers set salary = 3000 where id =3;
+update developers set salary = 12000 where id =4;
+update developers set salary = 1200 where id =5;
+update developers set salary = 1400 where id =6;
+update developers set salary = 10000 where id =7;
+update developers set salary = 3000 where id =8;
+update developers set salary = 5000 where id =9;
+select *from developers;
